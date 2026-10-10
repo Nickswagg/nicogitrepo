@@ -44,3 +44,8 @@ https://code.visualstudio.com/
 
 12. code scanning 
 https://sonarcloud.io/login
+
+
+arm templates
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-modes

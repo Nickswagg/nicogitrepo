@@ -1,0 +1,76 @@
+questions
+1 check your current session is connected to which subscription
+2. check which all sizes of vm machine you can create under this subscription
+3. create a resource group using the cli
+
+
+
+task:
+1. try to create below resources using arm templates
+   resource group
+   storage account
+   vm
+and pass all the values using parameters file
+
+31st august
+1. policy
+try to create a policy and your conditions shoould be resources should only be allowed in the east us region but before implenting the policy create 1 resource in west US and after it test the policy and implement
+
+verify what will happen in existing resource plus what was the test result in disabled mode
+
+
+2. create a policy that nobody else should have a owner access besides your main email id
+
+
+also go through the study links plus test modules
+
+
+2nd september
+complete the storage account exercise
+https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/9-simulation-blobs
+
+3rd september
+complete the storage account exercise
+
+https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/Labs/LAB_07-Manage_Azure_Storage.html
+
+
+try to create the full fledge storage account taking care of netwroking and security using the ARM templates
+
+4th september 
+follow this exercise
+https://learn.microsoft.com/en-us/training/modules/intro-to-azure-virtual-machines/3-create-a-vm
+
+go through different options in linux and windows os
+
+
+try to install some softwares using extension options in vm creation
+
+also create ARM template for vm machine
+
+learn about ip addressing https://www.meridianoutpost.com/resources/articles/IP-classes.php
+
+
+10 september
+
+create arm templates for below resources:
+1. azure app serice plan 
+2. web app service
+3. virtual machines
+4. azure virtual machine scale set
+
+go through all topics covered till dat and complete assignments in all modules.
+
+also practive these assignment of modules:
+1. https://learn.microsoft.com/en-us/training/modules/configure-azure-app-services/11-simulation-web-apps
+2. https://learn.microsoft.com/en-us/training/modules/host-a-web-app-with-azure-app-service/1-introduction
+
+
+
+17th september
+container instance
+step1: pull nginx image from docker hub
+step2: run the nginx container on local and modify index.html
+step3: create customized image on your local and push it on docker hub
+step4: create container instance and use the image you pushed on docker hub
+step5: verify if you can see your changes if you hit fqdn of container instance 
