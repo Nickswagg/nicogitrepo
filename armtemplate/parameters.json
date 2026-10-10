@@ -7,6 +7,8 @@
     },
     "storageAccountType": {
       "value": "Standard_LRS"
-    }
+    },
+    "resourceGroupName": {
+      "value": "learn-template-rg"
   }
 }
